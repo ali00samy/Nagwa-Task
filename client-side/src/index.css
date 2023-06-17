@@ -1,0 +1,45 @@
+body {
+  font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(6, 122, 117);
+}
+
+
+
+h3, h1 {
+  color: white;
+}
+
+button {
+  color: white;
+  border: 1px solid white;
+  background-color: transparent;
+  border-radius: 5px;
+  margin-right: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+button:hover{
+  background-color: white;
+  color: rgb(6, 122, 117);
+  transition: ease-in-out 0.3s;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header button {
+  color: rgb(6, 122, 117);
+  border: 1px solid transparent;
+  background-color: white;
+}
+
+.correct {
+  background-color: rgb(12, 189, 57);
+}
+
+.wrong {
+  background-color: rgb(131, 2, 2);
+}
